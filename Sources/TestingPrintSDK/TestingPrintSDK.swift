@@ -1,6 +1,13 @@
-public struct TestingPrintSDK {
-    public private(set) var text = "Hello, World!"
+import SwiftUI
+import Foundation
 
-    public init() {
+extension View{
+  public  func centerHorizontal() -> some View{
+        HStack{
+            Spacer()
+            self
+            Spacer()
+            
+        }
     }
 }
